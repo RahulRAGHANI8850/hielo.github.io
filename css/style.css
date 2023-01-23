@@ -1,0 +1,320 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header and banner starts*/
+.header-container {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/slide01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    opacity: .9;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar h3 {
+    color: whitesmoke;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 30px 0px 0px 30px;
+}
+
+.navbar .logo {
+    font-weight: 200;
+}
+
+.navbar .menu-icon {
+    margin: 30px 20px 0px 0px;
+    float: right;
+    font-size: 13px;
+}
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.banner p {
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.banner hr {
+    width: 40%;
+}
+
+.banner h1 {
+    font-weight: 500;
+    font-size: 70px;
+    margin-top: 2px;
+}
+
+/* header and banner ends */
+
+
+/* Full width properties for all the sections */
+.full-width {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #eeeeee;
+}
+
+/* two section of two-blog starts here */
+.two-blogs {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.two-blogs .left,
+.two-blogs .right {
+    width: 40%;
+    float: left;
+    background-color: #fff;
+    margin-left: 60px;
+}
+
+.left img,
+.right img {
+    width: 100%;
+}
+
+.left p,
+.right p {
+    font-weight: 200;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.left hr,
+.right hr {
+    width: 50%;
+}
+
+.left .align-left,
+.right .align-left {
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 0px 40px;
+    line-height: 15px;
+}
+
+.two-blogs h3 {
+    letter-spacing: 2PX;
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.two-blogs .buttons {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.two-blogs button {
+    background-color: transparent;
+    font-size: 10px;
+    width: 110px;
+    height: 35px;
+    padding: 10px;
+}
+
+/* two blogs ends here */
+
+
+
+/* content-section starts here */
+.content-section {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content-section .content{
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.content p {
+    font-weight: 100;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.content hr {
+    width: 60%;
+}
+
+.content h3 {
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+/* content-section ends here */
+
+
+/* galary starts here */
+.galary-slider {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.galary-slider .heading {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.heading p {
+    font-weight: 200;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.heading hr {
+    width: 70%;
+}
+
+.heading h3 {
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.four-images {
+    max-width: 1000px;
+}
+
+.images {
+    border: 10px solid white;
+    width: 40%;
+    float: left;
+    margin-left: 35px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.images img {
+    width: 100%;
+}
+
+/* galary ends here */
+
+/* footer-wrapper starts here */
+.footer-wrapper {
+    background-color: black;
+
+}
+
+.footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: grey;
+}
+
+.footer span {
+    font-weight: 200;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.footer p {
+    font-size: 10px;
+}
+
+/* fotter-wrapper wnds here */
+
+/* media queries starts here */
+
+@media only screen and (max-width:1000px) {
+    .banner {
+        width: 80%;
+    }
+
+    .banner p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .banner hr {
+        width: 60%;
+    }
+
+    .two-blogs .left,
+    .two-blogs .right {
+        width: 80%;
+        clear: both;
+        background-color: #fff;
+        margin: 20px 0px 20px 100px;
+    }
+}
+
+
+@media only screen and (max-width:700px) {
+
+    .two-blogs .left,
+    .two-blogs .right {
+        width: 90%;
+        clear: both;
+        background-color: #fff; 
+        margin-left: 35px;
+    }
+    .content-section .content{
+        color: #fff;
+        padding: 10px;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }    
+    .galary-slider .heading {
+        width: 80%; 
+        text-align: center;
+        margin: 0 auto;
+    }
+    .images
+    {
+        width: 85%; 
+        clear: both;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .two-blogs .left,
+    .two-blogs .right {
+        width: 80%;
+        clear: both;
+        background-color: #fff;  
+    }
+
+}
